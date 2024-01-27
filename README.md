@@ -27,5 +27,5 @@ Google Maps API for location-based services.
 ### Authentication: 
 Firebase Auth for secure user authentication.
 
-Support
+### Support:
 For support, email contact@abode.com or open an issue on GitHub.
