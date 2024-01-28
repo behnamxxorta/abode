@@ -17,7 +17,7 @@ View properties on an integrated map to explore options based on geographic loca
 
 ## Technology Stack
 ### Frontend: 
-Java integration with android studio for interactive and engaging user interface.
+React for an interactive and engaging user interface. Built with builder.io from Figma.
 ### Backend: 
 Java
 ### Database: 
