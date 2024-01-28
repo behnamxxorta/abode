@@ -1,0 +1,192 @@
+import * as React from "react";
+
+function MyComponent(props) 
+  return (
+    <div className="shadow-2xl bg-white flex max-w-[480px] w-full flex-col items-stretch mx-auto pt-12 rounded-[32px]">
+      <div className="text-black text-5xl self-center mt-1.5">Profile</div>
+      <div className="flex items-stretch justify-between gap-5 mt-8 px-5">
+        <div className="text-blue-600 text-xs underline flex-1">
+          <span className="underline">Personal Information</span>
+          <br />
+          <br />
+          <span className="text-black">Profile Photo:</span>
+          <br />
+          <br />
+          <br />
+          <span className="text-black">First Name:</span>
+          <br />
+          <span className="text-black">Last Name:</span>
+          <br />
+          <span className="text-black">Phone:</span>
+          <br />
+          <span className="text-black">Email:</span>
+          <br />
+          <br />
+          <span className="underline">Location Preferences</span>
+          <br />
+          <br />
+          <span className="text-black">Location Tracking: </span>
+          <br />
+          <br />
+          <span className="text-black">Search Radius:</span>
+          <br />
+          <br />
+          <span className="underline">Property Preferences</span>
+          <br />
+          <br />
+          <span className="text-black">Property Type:</span>
+          <br />
+          <br />
+          <br />
+          <span className="text-black">Desired Size:</span>
+          <br />
+          <br />
+          <br />
+          <span className="text-black">Price range: </span>
+          <br />
+          <br />
+          <br />
+          <span className="text-black">Specific amenities:</span>
+          <br />
+          <br />
+          <br />
+          <span className="text-black">Purpose:</span>
+          <br />
+          <br />
+          <br />
+          <span className="underline">Account Settings</span>
+          <br />
+          <span className="text-black">Username:</span>
+          <br />
+          <span className="text-black">Password:</span>
+          <br />
+          <span className="text-black">Notifications:</span>
+          <br />
+          <br />
+          <span className="underline">Legal, Policies & Help</span>
+          <br />
+          <br />
+          <span className="text-blue-600">Terms of Service</span>
+          <br />
+          <span className="text-blue-600">Privacy Policy</span>
+          <br />
+          <span className="text-blue-600">Support and Feedback</span>
+          <br />
+        </div>
+        <div className="flex flex-col items-stretch mt-2.5 flex-1 self-start">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a6f82a2-9060-43c4-9693-57768f8f2dfc?apiKey=dacf4dc538274d118514255101e4e2b4&"
+            className="aspect-[1.04] object-contain object-center w-[51px] stroke-[1px] rounded-full"
+          />
+          <div className="flex flex-col items-stretch mt-1.5 pl-12">
+            <div className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[13px] flex-col border-solid border-black border-opacity-40" />
+            <div className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[13px] flex-col border-solid border-black border-opacity-40" />
+            <div className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[13px] flex-col border-solid border-black border-opacity-40" />
+            <div className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[13px] flex-col border-solid border-black border-opacity-40" />
+            <div className="flex items-stretch justify-between gap-2 mt-9">
+              <div className="text-black text-xs mt-1.5 self-start">Enable</div>
+              <div className="justify-center items-stretch border flex aspect-[2.13] flex-col rounded-sm border-solid border-black">
+                <div className="border flex shrink-0 h-[15px] flex-col border-solid border-black" />
+              </div>
+            </div>
+            <div className="flex items-stretch justify-between gap-2.5 mt-2.5">
+              <div className="justify-center items-center rounded border shadow-lg flex w-[55px] shrink-0 h-[17px] flex-col border-solid border-black border-opacity-40" />
+              <div className="text-black text-xs">km</div>
+            </div>
+            <div className="justify-between items-stretch bg-black bg-opacity-20 flex gap-2.5 mt-7 p-2.5 rounded-[50px]">
+              <div className="text-white text-xs grow whitespace-nowrap">
+                Select One
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/18f086ae404e05c6c5897d56403e893569a398eb68528b20d560096259aa4ef2?apiKey=dacf4dc538274d118514255101e4e2b4&"
+                className="aspect-[1.82] object-contain object-center w-[11px] stroke-[2px] stroke-black shrink-0 my-auto"
+              />
+            </div>
+            <div className="justify-between items-stretch bg-black bg-opacity-20 flex gap-2.5 mt-2.5 p-2.5 rounded-[50px]">
+              <div className="text-white text-xs grow whitespace-nowrap">
+                Select One
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/18f086ae404e05c6c5897d56403e893569a398eb68528b20d560096259aa4ef2?apiKey=dacf4dc538274d118514255101e4e2b4&"
+                className="aspect-[1.82] object-contain object-center w-[11px] stroke-[2px] stroke-black shrink-0 my-auto"
+              />
+            </div>
+            <div className="justify-between items-stretch bg-black bg-opacity-20 flex gap-2.5 mt-2.5 p-2.5 rounded-[50px]">
+              <div className="text-white text-xs grow whitespace-nowrap">
+                Select One
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/18f086ae404e05c6c5897d56403e893569a398eb68528b20d560096259aa4ef2?apiKey=dacf4dc538274d118514255101e4e2b4&"
+                className="aspect-[1.82] object-contain object-center w-[11px] stroke-[2px] stroke-black shrink-0 my-auto"
+              />
+            </div>
+            <div className="justify-between items-stretch bg-black bg-opacity-20 flex gap-2.5 mt-2.5 p-2.5 rounded-[50px]">
+              <div className="text-white text-xs grow whitespace-nowrap">
+                Select One
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/18f086ae404e05c6c5897d56403e893569a398eb68528b20d560096259aa4ef2?apiKey=dacf4dc538274d118514255101e4e2b4&"
+                className="aspect-[1.82] object-contain object-center w-[11px] stroke-[2px] stroke-black shrink-0 my-auto"
+              />
+            </div>
+            <div className="justify-between items-stretch bg-black bg-opacity-20 flex gap-2.5 mt-2.5 p-2.5 rounded-[50px]">
+              <div className="text-white text-xs grow whitespace-nowrap">
+                Select One
+              </div>
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/18f086ae404e05c6c5897d56403e893569a398eb68528b20d560096259aa4ef2?apiKey=dacf4dc538274d118514255101e4e2b4&"
+                className="aspect-[1.82] object-contain object-center w-[11px] stroke-[2px] stroke-black shrink-0 my-auto"
+              />
+            </div>
+            <div className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[17px] flex-col mt-3 border-solid border-black border-opacity-40" />
+            <div className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[17px] flex-col border-solid border-black border-opacity-40" />
+            <div className="flex items-stretch justify-between gap-1">
+              <div className="text-black text-xs mt-1.5 self-start">Enable</div>
+              <div className="justify-center items-stretch border flex aspect-[2.13] flex-col rounded-sm border-solid border-black">
+                <div className="border flex shrink-0 h-[15px] flex-col border-solid border-black" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="text-white text-xs whitespace-nowrap bg-red-700 justify-center items-stretch mt-6 px-4 py-2 rounded-xl self-end">
+        Log Out
+      </div>
+      <div className="justify-between items-center shadow-sm flex w-full gap-5 pt-6 px-14 rounded-[32px]">
+        <div className="self-stretch flex flex-col items-center flex-1">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/13fe6e1a655efe2bcce51aecc9a6b317efa04ad528b8ef0ccc26b696fc55fbca?apiKey=dacf4dc538274d118514255101e4e2b4&"
+            className="aspect-square object-contain object-center w-6 fill-white"
+          />
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/58b4618e9eb54560a6d53a5c4ac154bbe00e5b94ee2a12cbb236bd8de3a4c07c?apiKey=dacf4dc538274d118514255101e4e2b4&"
+            className="aspect-[9.09] object-contain object-center w-[79px] fill-[linear-gradient(271deg,#176FF2_1.64%,#196EEE_102.71%)] mt-4"
+          />
+        </div>
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1d0924c35dd0814b2fda0696ea069c098abbe92b479bd57a8ad41ba12d1df824?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          className="aspect-square object-contain object-center w-5 justify-center items-center self-stretch shrink-0 my-auto"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/60c3ef554f21f68b3574a01b203b71403f5f24f7aac7d2ffe299919be11a744f?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          className="aspect-square object-contain object-center w-5 self-stretch shrink-0 my-auto"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e6f71733dea00b5ee0eace623d38ed91bc57c0da0b9bdcd6836bf76b36056b09?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          className="aspect-square object-contain object-center w-5 self-stretch shrink-0 my-auto"
+        />
+      </div>
+    </div>
+  );
+}
