@@ -38,26 +38,14 @@ function MyComponent(props) {
           3433 Rue Durocher, Montreal, Quebec
         </div>
       </div>
-      <div className="items-stretch border shadow-lg flex w-full max-w-[331px] flex-col mt-2.5 pt-1 pb-2.5 px-0.5 rounded-2xl border-solid border-zinc-100">
+      <div className="justify-center items-center shadow-sm self-stretch flex w-full flex-col mt-56 px-5 py-0.5 rounded-[32px]">
         <img
           loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7acaeb34133a2a894d7bf7b3ebe2ad6cf4fb957094405f1e9a48b2ac9de1a381?apiKey=dacf4dc538274d118514255101e4e2b4&"
-          className="aspect-[2.22] object-contain object-center w-full"
-        />
-        <div className="text-neutral-800 text-xl">Coeur des Alpes</div>
-        <div className="text-black text-xs">
-          1212 Pine Avenue, Montreal, Quebec
-        </div>
-      </div>
-      <div className="justify-center items-center shadow-sm self-stretch flex w-full flex-col mt-1.5 px-5 py-px rounded-[32px]">
-        <img
-          loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/68b49c0b-6e9b-4adb-9b38-fb4d1e7d010a?apiKey=dacf4dc538274d118514255101e4e2b4&"
-          className="aspect-[4.76] object-contain object-center w-[334px] items-start shadow-lg"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bc57d4b4-427d-48dc-883e-3aa9c4393b61?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          className="aspect-[4.76] object-contain object-center w-[331px] items-start shadow-lg"
         />
       </div>
     </div>
   );
 }
-
 
