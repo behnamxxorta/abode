@@ -38,4 +38,3 @@ function MyComponent(props) {
   );
 }
 
-
