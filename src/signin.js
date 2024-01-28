@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 
 function LoginForm() {
   return (
@@ -13,47 +13,44 @@ function LoginForm() {
         Email
       </label>
       <input
-        type="text"
         id="email"
         className="justify-center items-center rounded shadow-lg flex shrink-0 h-[30px] flex-col border-2 border-solid border-black border-opacity-10"
+        type="text"
         aria-label="Email"
-        aria-role="input"
       />
       <label htmlFor="password" className="leading-[113.4%] mt-10">
         Password
       </label>
       <input
-        type="password"
         id="password"
-        className="justify-center items-center rounded border shadow-lg flex shrink-0 h-[30px] flex-col border-solid border-black border-opacity-10"
+        className="justify-center items-center rounded border shadow-lg flex w-[301px] shrink-0 max-w-full h-[30px] flex-col border-solid border-black border-opacity-10"
+        type="password"
         aria-label="Password"
-        aria-role="input"
       />
-      <label htmlFor="remember-me" className="leading-[113.4%] whitespace-nowrap ml-9 mt-4 self-start">
-        Remember me
-      </label>
-      <a
-        href="#"
+      <div className="flex items-stretch justify-between gap-3 mt-3">
+        <div className="justify-center items-center border flex aspect-square flex-col w-[15px] h-[15px] rounded-sm border-solid border-black">
+          <div className="border flex shrink-0 h-[15px] flex-col border-solid border-black" />
+        </div>
+        <div className="text-black text-xs leading-3 grow shrink basis-auto mt-1.5 self-start">
+          Remember me
+        </div>
+      </div>
+      <button
+        type="submit"
         className="text-white text-xs whitespace-nowrap justify-center items-center rounded border shadow-lg mt-16 px-16 py-3 border-solid border-black border-opacity-10"
-        aria-label="Sign In"
-        aria-role="button"
       >
         Sign In
-      </a>
+      </button>
       <div className="text-red-600 leading-[113.4%] underline whitespace-nowrap mt-3">
-        Forgot your password?{' '}
-        <a href="#" className="underline text-red-600" aria-label="Reset your password" aria-role="link">
+        Forgot your password?{" "}
+        <a href="#" className="underline text-red-600">
           Reset your password
         </a>
       </div>
       <div className="justify-between items-stretch bg-white flex gap-2.5 text-xs whitespace-nowrap mt-20 px-8 py-4 rounded-2xl">
-        <div className="text-black grow">Don't have an account?</div>
-        <a href="#" className="text-red-600 underline grow" aria-label="Register now" aria-role="link">
-          Register now
-        </a>
+        <div className="text-black grow">Don’t have an account?</div>
+        <div className="text-red-600 underline grow">Register now</div>
       </div>
     </form>
   );
 }
-
-export default LoginForm;
