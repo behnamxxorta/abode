@@ -53,25 +53,26 @@ function MyComponent(props) {
       <div className="justify-between items-center shadow-sm self-stretch flex w-full gap-5 mt-56 px-16 py-6 rounded-[32px]">
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e732893ae347adbe3894f2156254822ca3433d42f99c36c39323886afd16bd78?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf2f3f2bdc552fae8485751f7b1d64fc917307d1f238c165f4a591b3eec4ecfb?apiKey=dacf4dc538274d118514255101e4e2b4&"
           className="aspect-square object-contain object-center w-full fill-white shrink-0 flex-1"
         />
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/c1a9bfa9ed75f6c0d643c2c9f676e922f559166bc67381b36c92154d848e919b?apiKey=dacf4dc538274d118514255101e4e2b4&"
-          className="aspect-square object-contain object-center w-full shrink-0 flex-1 my-auto"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7afe3c265dcbe4ff71e3e67840f58729201f911586ec560c676ad961adb917bd?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          className="aspect-[1.11] object-contain object-center w-full shrink-0 flex-1 my-auto"
         />
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ce1c71dc499d1c45c3b856722892d65fe55ad7d71657d7f5f599e76f19ce650?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f932c6479fb95e65512ebd3b4461f3b59fb321fc3646551a2b3b938ed89285b?apiKey=dacf4dc538274d118514255101e4e2b4&"
           className="aspect-square object-contain object-center w-full fill-white shrink-0 flex-1 my-auto"
         />
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba42b748708d8a0052d44417ad6e28547f05c47e08154bb5d1c1d13c9cf6a139?apiKey=dacf4dc538274d118514255101e4e2b4&"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/5e34bc95d3809dcc4263f5151d2ff66e913ead0533797b2b91a6568251927a8b?apiKey=dacf4dc538274d118514255101e4e2b4&"
           className="aspect-square object-contain object-center w-full justify-center items-center shrink-0 flex-1 my-auto"
         />
       </div>
     </div>
   );
 }
+
