@@ -1,0 +1,47 @@
+import React from "react";
+
+function AccommodationCard() {
+  return (
+    <div className="shadow-2xl flex max-w-[480px] w-full flex-col mx-auto pl-2 pr-5 py-8 rounded-[32px] items-start">
+      <img loading="lazy" srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4d0ad661-4edd-41c8-96b7-9e663554a858?apiKey=dacf4dc538274d118514255101e4e2b4&"className="aspect-[0.91] object-contain object-center w-full self-stretch" />
+      <div className="flex items-stretch gap-1 ml-4 mt-2 py-px">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c07f42a7c3d438d21c13ca9ff4025c5120cc14c93f6fe51845c0b5a867c5d1?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-square object-contain object-center w-4 shrink-0 self-start" />
+        <div className="text-zinc-600 text-xs grow whitespace-nowrap"> 4.5 (355 Reviews) </div>
+      </div>
+      <div className="text-gray-700 text-sm ml-3 mt-5"> Aspen is as close as one can get to a storybook alpine town in America. The choose-your-own-adventure possibilities—skiing, hiking, dining shopping and .... </div>
+      <div className="flex items-stretch gap-1.5 ml-3 mt-1">
+        <a href="#" className="text-sm bg-clip-text bg-[linear-gradient(271deg,#176FF2_1.64%,#196EEE_102.71%)] grow whitespace-nowrap my-auto"> Read more </a>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4744e86a5a6f832750afe39a5e930027507430edf350dc4c81d0e6a493c95286?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-square object-contain object-center w-6 shrink-0" />
+      </div>
+      <div className="text-neutral-800 text-lg font-semibold ml-3 mt-9"> Facilities </div>
+      <form className="flex items-stretch gap-3.5 ml-3 mt-5">
+        <div className="justify-center items-stretch flex flex-col px-5 py-3 rounded-2xl flex-1">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/623b5f1ec55c2613eebbed23f45581ae95ec84939c25dfd7e2d6d1a3f83d2d3a?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-[1.22] object-contain object-center w-[39px] self-center" />
+          <div className="text-zinc-400 text-xs whitespace-nowrap mt-1.5"> 1 Heater </div>
+        </div>
+        <div className="justify-center items-stretch flex flex-col w-[74px] h-[74px] px-5 rounded-2xl">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4b78d4f3073dd05a3ba96907e191c2989d1b82ab92d584b2e6a1a2ac82b8eac?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-square object-contain object-center w-full self-center" />
+          <div className="text-stone-300 text-xs mt-1.5">Dinner</div>
+        </div>
+        <div className="justify-center items-stretch flex flex-col w-[74px] h-[74px] px-5 rounded-2xl">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/54e2c3fc71fb1a6cb696a92190ed42619be9a9f9f731e967e47b9c9592c5d0fe?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-square object-contain object-center w-full self-center" />
+          <div className="text-stone-300 text-xs whitespace-nowrap mt-1.5"> 1 Tub </div>
+        </div>
+        <div className="justify-center items-stretch flex flex-col w-[74px] h-[74px] px-5 rounded-2xl">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ff84c2762a52e3373126c841ec2d78c0619755843911aeb2ed8dc3eec3b3c6d?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-square object-contain object-center w-full self-center" />
+          <div className="text-stone-300 text-xs mt-1.5">Pool</div>
+        </div>
+      </form>
+      <div className="self-center flex w-full items-stretch justify-between gap-5 mt-7">
+        <div className="flex basis-0 flex-col items-stretch whitespace-nowrap my-auto">
+          <div className="text-neutral-800 text-xs">Price</div>
+          <div className="text-emerald-400 text-2xl font-bold mt-2.5">$199</div>
+        </div>
+        <div className="justify-between items-stretch shadow-lg bg-black flex gap-2.5 px-14 py-4 rounded-2xl">
+          <div className="text-white text-base grow whitespace-nowrap self-start"> Book Now </div>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cce449883c5efb48433ed40c32fef561a4c39921145a3ba50e21c1769fb6e8d7?apiKey=dacf4dc538274d118514255101e4e2b4&" className="aspect-square object-contain object-center w-6 shrink-0" />
+        </div>
+      </div>
+    </div>
+  );
+}
